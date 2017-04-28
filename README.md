@@ -23,7 +23,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```  
 #####   3. Install setuptools
    
-*download:`wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`    
+* download:`wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`    
 * Decompression:`tar zxvf setuptools-0.6c11.tar.gz`
 * install : `[root@hostname setuptools-0.6c11]# python2.7 setup.py install`
 
