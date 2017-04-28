@@ -15,7 +15,7 @@
 
  ```
 
-  2. 安装`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
+  2.  Install`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
      
      
      (1) `download`: `wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2`
@@ -41,7 +41,7 @@
       
       >>>
      
-   3. install setuptools
+   3. Install setuptools
    
      (1) `download:wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
      
@@ -55,7 +55,7 @@
 
      `--Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg`
 
-      __Of course__ `zope.interface` will automatically download and install
+      Of course `zope.interface` will automatically download and install
 
       `Reading http://pypi.python.org/simple/zope.interface/`
        `Best match: zope.interface 4.4.0`
@@ -74,6 +74,26 @@
        Finished processing dependencies for w3lib
       
        ```
+    
+   6 install `libxml2` or use `easy_install` install `lxml`
+    
+      `[root@hostname setuptools-0.6c11]# easy_install lxml`
+      
+      `Building lxml version 3.7.3`
+
+  
+       next we can verification lxml ？
+       
+      ···
+      [root@d1-datanode24 setuptools-0.6c11]# python2.7
+      Python 2.7.3 (default, Apr 28 2017, 17:08:56)
+      [GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>> import lxml
+      >>> exit()
+      ```
+
+
 
     
 
