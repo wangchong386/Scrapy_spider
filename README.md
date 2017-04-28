@@ -15,7 +15,7 @@
 
  ```
 
-  2. 安装开发包： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
+  2. 安装`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
      
      
      (1) `download`: `wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2`
@@ -40,9 +40,47 @@
       Type "help", "copyright", "credits" or "license" for more information.
       
       >>>
+     
+   3. install setuptools
+   
+     (1) `download:wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
+     
+     (2) `Decompression:tar zxvf setuptools-0.6c11.tar.gz`
+
+     (3) `install : [root@hostname setuptools-0.6c11]# python2.7 setup.py  install`
+
+   4. install Twisted
+   
+     `[root@hostname setuptools-0.6c11]# easy_install Twisted`
+
+     `--Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg`
+
+      Of course `zope.interface` will automatically download and install
+
+      `Reading http://pypi.python.org/simple/zope.interface/`
+       `Best match: zope.interface 4.4.0`
+
+   
+   
+   5.  install `w3lib`
+       
+       `[root@hostname setuptools-0.6c11]# easy_install -U w3lib`
+       
+       ```
+       Installed /usr/local/lib/python2.7/site-packages/w3lib-1.17.0-py2.7.egg
+       
+       Processing dependencies for w3lib
+       
+       Finished processing dependencies for w3lib
       
+       ```
+
+    
 
 
+
+
+     
 
                                         
   
