@@ -2,7 +2,7 @@
 
 ### 安装环境:
  
- 1. 服务器配置：centos6.5
+##### 1. 服务器配置：centos6.5
 
 ```
           cpu: Intel(R) Xeon(R) CPU E5606 @ 2.13GHz x 2
@@ -15,7 +15,7 @@
 
  ```
 
-  2.  Install`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
+##### 2.  Install`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
      
      
      * download: `wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2`
@@ -41,7 +41,7 @@
       
       >>>
      
-   3. Install setuptools
+#####   3. Install setuptools
    
      * download:`wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
      
@@ -49,7 +49,7 @@
 
      * install : `[root@hostname setuptools-0.6c11]# python2.7 setup.py install`
 
-   4. install Twisted
+#####   4. install Twisted
    
 
      * Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg  
@@ -63,13 +63,11 @@
 
    
    
-   5.  install `w3lib`
+#####   5.  install `w3lib`
        
-       [root@hostname setuptools-0.6c11]# easy_install -U w3lib
-       
-      
+       [root@hostname setuptools-0.6c11]# easy_install -U w3lib 
 
-       Installed /usr/local/lib/python2.7/site-packages/w3lib-1.17.0-py2.7.egg
+       * Installed /usr/local/lib/python2.7/site-packages/w3lib-1.17.0-py2.7.egg
        
        Processing dependencies for w3lib
        
@@ -78,7 +76,7 @@
 
        
     
-   6 install `libxml2` or use `easy_install` install `lxml`
+#####   6 install `libxml2` or use `easy_install` install `lxml`
     
       [root@hostname setuptools-0.6c11]# easy_install lxml
       
