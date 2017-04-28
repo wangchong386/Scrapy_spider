@@ -51,7 +51,7 @@
 
    4. install Twisted
    
-   ```
+
    
      [root@hostname setuptools-0.6c11]# easy_install Twisted
 
@@ -61,41 +61,41 @@
 
       Reading http://pypi.python.org/simple/zope.interface/
       Best match: zope.interface 4.4.0
-   ```
+
    
    
    5.  install `w3lib`
        
-       `[root@hostname setuptools-0.6c11]# easy_install -U w3lib`
+       [root@hostname setuptools-0.6c11]# easy_install -U w3lib
        
       
-      ```
+
        Installed /usr/local/lib/python2.7/site-packages/w3lib-1.17.0-py2.7.egg
        
        Processing dependencies for w3lib
        
        Finished processing dependencies for w3lib
       
-       ```
+
        
     
    6 install `libxml2` or use `easy_install` install `lxml`
     
-      `[root@hostname setuptools-0.6c11]# easy_install lxml`
+      [root@hostname setuptools-0.6c11]# easy_install lxml
       
-      `Building lxml version 3.7.3`
+      Building lxml version 3.7.3
 
   
        next we can verification lxml ？
        
-      ···
+
       [root@d1-datanode24 setuptools-0.6c11]# python2.7
       Python 2.7.3 (default, Apr 28 2017, 17:08:56)
       [GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
       Type "help", "copyright", "credits" or "license" for more information.
       >>> import lxml
       >>> exit()
-      ```
+
 
 
 
