@@ -5,26 +5,26 @@
  1. 服务器配置：centos6.5
 
 ```
-          cpu: Intel(R) Xeon(R) CPU E5606 @ 2.13GHz x 2
+         * cpu: Intel(R) Xeon(R) CPU E5606 @ 2.13GHz x 2
           
-           Memory：32GB (4GB x 8)
+         *  Memory：32GB (4GB x 8)
           
-           Drive：2TB x 4
+         *  Drive：2TB x 4
           
-           network: Broadcom Corporation NetXtreme II BCM5716 Gigabit Ethernet x 2
+         *  network: Broadcom Corporation NetXtreme II BCM5716 Gigabit Ethernet x 2
 
  ```
 
   2.  Install`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
      
      
-     * download: wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
+     * download: `wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2`
      
-     * Decompression: tar -jxvf Python-2.7.3.tar.bz2
+     * Decompression: `tar -jxvf Python-2.7.3.tar.bz2`
      
-     * install: [root@hostname Python-2.7.3]# ./configure
+     * install: `[root@hostname Python-2.7.3]# ./configure`
 
-     * make :[root@hostname Python-2.7.3]# make && make install
+     * make :`[root@hostname Python-2.7.3]# make && make install`
      
      *  verification
      
