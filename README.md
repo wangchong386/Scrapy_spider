@@ -55,7 +55,7 @@
 
      `--Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg`
 
-      Of course `zope.interface` will automatically download and install
+      __Of course__ `zope.interface` will automatically download and install
 
       `Reading http://pypi.python.org/simple/zope.interface/`
        `Best match: zope.interface 4.4.0`
