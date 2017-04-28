@@ -18,15 +18,15 @@
   2.  Install`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
      
      
-     (1) download: wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
+     * download: wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
      
-     (2) Decompression: tar -jxvf Python-2.7.3.tar.bz2
+     * Decompression: tar -jxvf Python-2.7.3.tar.bz2
      
-     (3) install: [root@hostname Python-2.7.3]# ./configure
+     * install: [root@hostname Python-2.7.3]# ./configure
 
-     (4) make :[root@hostname Python-2.7.3]# make && make install
+     * make :[root@hostname Python-2.7.3]# make && make install
      
-     (5)  verification
+     *  verification
      
      
 
@@ -43,11 +43,11 @@
      
    3. Install setuptools
    
-     (1) download:wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
+     * `download:wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
      
-     (2) Decompression:tar zxvf setuptools-0.6c11.tar.gz
+     * Decompression:tar zxvf setuptools-0.6c11.tar.gz
 
-     (3) install : [root@hostname setuptools-0.6c11]# python2.7 setup.py  install
+     * install : [root@hostname setuptools-0.6c11]# python2.7 setup.py  install
 
    4. install Twisted
    
