@@ -15,18 +15,19 @@
 
  ```
 
+
 ##### 2.  Install`python`： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
      
      
-     * download: `wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2`
+      download: `wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2`
      
-     * Decompression: `tar -jxvf Python-2.7.3.tar.bz2`
+      Decompression: `tar -jxvf Python-2.7.3.tar.bz2`
      
-     * install: `[root@hostname Python-2.7.3]# ./configure`
+      install: `[root@hostname Python-2.7.3]# ./configure`
 
-     * make :`[root@hostname Python-2.7.3]# make && make install`
+      make :`[root@hostname Python-2.7.3]# make && make install`
      
-     *  verification
+      verification
      
      
 
@@ -43,19 +44,19 @@
      
 #####   3. Install setuptools
    
-     * download:`wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
+      download:`wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
      
-     * Decompression:`tar zxvf setuptools-0.6c11.tar.gz`
+      Decompression:`tar zxvf setuptools-0.6c11.tar.gz`
 
-     * install : `[root@hostname setuptools-0.6c11]# python2.7 setup.py install`
+      install : `[root@hostname setuptools-0.6c11]# python2.7 setup.py install`
 
 #####   4. install Twisted
    
 
-     * Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg  
+      Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg  
      `[root@hostname setuptools-0.6c11]# easy_install Twisted`
 
-      * Of course `zope.interface` will automatically download and install
+      Of course `zope.interface` will automatically download and install
      ```
       Reading http://pypi.python.org/simple/zope.interface/
       Best match: zope.interface 4.4.0
@@ -67,7 +68,7 @@
        
        [root@hostname setuptools-0.6c11]# easy_install -U w3lib 
 
-       * Installed /usr/local/lib/python2.7/site-packages/w3lib-1.17.0-py2.7.egg
+        Installed /usr/local/lib/python2.7/site-packages/w3lib-1.17.0-py2.7.egg
        
        Processing dependencies for w3lib
        
@@ -81,10 +82,8 @@
       [root@hostname setuptools-0.6c11]# easy_install lxml
       
       Building lxml version 3.7.3
-
-  
-       next we can verification lxml ？
-       
+ 
+      next we can verification lxml ？
 
       [root@d1-datanode24 setuptools-0.6c11]# python2.7
       Python 2.7.3 (default, Apr 28 2017, 17:08:56)
