@@ -15,7 +15,8 @@
 2. 安装开发包：
    ```
      Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
-     download:[root@username python]# wget wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
+     download
+     [root@username python]# wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
   ```
 
                                         
