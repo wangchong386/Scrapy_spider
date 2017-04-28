@@ -13,11 +13,15 @@
 
  ```
 2. 安装开发包：
-    `由于服务器的python版本是`
-                 ```
+    ```
+    由于服务器的python版本是:
+
                  # python --version
                    Python 2.6.6
-                 ```
+                   
+      由于Scrapy 需要python 2.7 以上的版本，所以先需要升级python2.7
+      __download__:[root@username python]# wget wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
+   ```
 
                                         
   
