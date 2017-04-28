@@ -12,12 +12,15 @@
            network: Broadcom Corporation NetXtreme II BCM5716 Gigabit Ethernet x 2
 
  ```
-2. 安装开发包：
-   ```
-     Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
-     download
-     [root@username python]# wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
-  ```
+2. 安装开发包： Since Scrapy requires python 2.7 or higher, you need to upgrade python2.7 first
+     
+     
+     (1) `download`: `wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2`
+     
+     (2) `Decompression`: `tar -jxvf Python-2.7.3.tar.bz2`
+     
+     (3) `install`: `[root@hostname Python-2.7.3]# ./configure`
+
 
                                         
   
