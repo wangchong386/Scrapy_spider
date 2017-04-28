@@ -57,10 +57,8 @@
      `[root@hostname setuptools-0.6c11]# easy_install Twisted`
 
       Of course `zope.interface` will automatically download and install
-     ```
       Reading http://pypi.python.org/simple/zope.interface/
       Best match: zope.interface 4.4.0
-     ```
 
    
    
