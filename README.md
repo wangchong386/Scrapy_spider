@@ -42,7 +42,7 @@ Best match: zope.interface 4.4.0
  Processing dependencies for w3lib
  Finished processing dependencies for w3lib
 ```    
-#####   6 install `libxml2` or use `easy_install` install `lxml`
+#####  6. install `libxml2` or use `easy_install` install `lxml`
 ``` 
 [root@hostname setuptools-0.6c11]# easy_install lxml
 Building lxml version 3.7.3
