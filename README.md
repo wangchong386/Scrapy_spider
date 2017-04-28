@@ -5,13 +5,13 @@
  1. 服务器配置：centos6.5
 
 ```
-         * cpu: Intel(R) Xeon(R) CPU E5606 @ 2.13GHz x 2
+          cpu: Intel(R) Xeon(R) CPU E5606 @ 2.13GHz x 2
           
-         *  Memory：32GB (4GB x 8)
+          Memory：32GB (4GB x 8)
           
-         *  Drive：2TB x 4
+          Drive：2TB x 4
           
-         *  network: Broadcom Corporation NetXtreme II BCM5716 Gigabit Ethernet x 2
+          network: Broadcom Corporation NetXtreme II BCM5716 Gigabit Ethernet x 2
 
  ```
 
@@ -43,25 +43,23 @@
      
    3. Install setuptools
    
-     * `download:wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
+     * download:`wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz`
      
-     * Decompression:tar zxvf setuptools-0.6c11.tar.gz
+     * Decompression:`tar zxvf setuptools-0.6c11.tar.gz`
 
-     * install : [root@hostname setuptools-0.6c11]# python2.7 setup.py  install
+     * install : `[root@hostname setuptools-0.6c11]# python2.7 setup.py install`
 
    4. install Twisted
    
 
-   
-     [root@hostname setuptools-0.6c11]# easy_install Twisted
+     * Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg  
+     `[root@hostname setuptools-0.6c11]# easy_install Twisted`
 
-      --Installed /usr/local/lib/python2.7/site-packages/six-1.10.0-py2.7.egg
-
-      Of course `zope.interface` will automatically download and install
-
-
+      * Of course `zope.interface` will automatically download and install
+     ```
       Reading http://pypi.python.org/simple/zope.interface/
       Best match: zope.interface 4.4.0
+     ```
 
    
    
