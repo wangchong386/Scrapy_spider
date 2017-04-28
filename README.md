@@ -20,6 +20,25 @@
      (2) `Decompression`: `tar -jxvf Python-2.7.3.tar.bz2`
      
      (3) `install`: `[root@hostname Python-2.7.3]# ./configure`
+     
+     (4) `[root@hostname Python-2.7.3]# make && make install`
+     
+     (5) `verification`
+     
+     
+      ```
+      
+      [root@hostname Python-2.7.3]# python2.7
+      
+      Python 2.7.3 (default, Apr 28 2017, 17:08:56)
+      
+      [GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
+      
+      Type "help", "copyright", "credits" or "license" for more information.
+      
+      >>>
+      
+      ```
 
 
                                         
